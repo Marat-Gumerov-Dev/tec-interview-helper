@@ -1,9 +1,12 @@
 import React from 'react';
+import { Button } from 'react-onsenui' 
 
 const SignUp = () => {
   return (
     <div>
-        <span>Sign-Up< /span>
+       <Button modifier="large--cta">
+          Sign Up
+        </Button>
     < /div>
   )
 };

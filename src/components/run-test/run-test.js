@@ -3,7 +3,7 @@ import React from 'react';
 const RunTest = () => {
   return (
     <div>
-      RUN TEST
+      RUN TEST WINDOW
     < /div>
   )
 };

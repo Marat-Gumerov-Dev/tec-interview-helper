@@ -3,7 +3,7 @@ import React from "react";
 const ThemeSwitcher = () => {
   return (
     <div>
-        <span>Theme switcher< /span>
+        <ons-switch checked></ons-switch>
     < /div>
   )
 };

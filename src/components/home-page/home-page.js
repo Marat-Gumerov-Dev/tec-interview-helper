@@ -1,10 +1,9 @@
 import React from "react";
 
+import HeaderNav from "../header/header-nav";
 import Logo from '../header/logo';
 import MenuToggle from '../header/menu-toggle';
-import HeaderTitle from '../header/header-title';
 import ThemeSwitcher from '../header/theme-switcher';
-import SignUp from '../header/sign-up';
 import RunTest from '../run-test';
 
 
@@ -14,18 +13,17 @@ const HomePage = () => {
   return (
     <div className="home-page">
       <header>
-        <div className="logo">
+        < HeaderNav />
+        <div>
           < Logo />
           < MenuToggle />
-        < /div>
-        < HeaderTitle />
+        </div>
         < ThemeSwitcher />
-        < SignUp />
-      < /header>
+      </header>
       <main>
         < RunTest/>
-      < /main>
-    < /div>
+      </main>
+    </div>
   )
 
 }

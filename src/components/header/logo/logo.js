@@ -2,14 +2,13 @@ import React from "react";
 
 const Logo = () => {
   const logoStyle = {
-     width: "32px",
-     height: "32px"
+     
   }
 
   return (
     <a href="/some/valid/uri">
       <img
-       src="logo"
+       src="https://via.placeholder.com/43.png/09f/fff"
        style={logoStyle}
        alt="logo" />
     < /a>
