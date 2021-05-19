@@ -4,7 +4,7 @@ const RunTest = () => {
   return (
     <div>
       RUN TEST WINDOW
-    < /div>
+    </div>
   )
 };
 
