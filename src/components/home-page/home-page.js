@@ -1,16 +1,21 @@
 import React from "react";
 
 import Header from './../page-components/header'
-import  RunTest  from '../run-test';
+import PopUpRunTest from '../pop-up-run-test';
+
+import './home-page.scss';
 
 
 const HomePage = () => {
 
   return (
+    <div className="homePage">
       <React.Fragment>
         <Header />
-        <RunTest />
+        < PopUpRunTest />
       </React.Fragment>
+    </div>
+      
   )
 
 }

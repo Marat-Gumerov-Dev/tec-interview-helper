@@ -1,0 +1,44 @@
+$theme-color:#faf9f9;
+$theme-bg-color: #040608c5;
+$theme-color-hover:#505050df;
+
+.switchTheme {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  color: $theme-color;
+  background-color: $theme-bg-color;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+
+
+  &:focus-visible {
+    box-shadow: 0 0 0 2px rgb(204, 203, 203);
+  }
+
+  &:hover {
+    background-color: $theme-color-hover;
+    transition-delay: 0.3s;
+    transition-duration: 0.2s;
+  }
+
+  &:active {
+    transform: scale(0.96);
+  }
+
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.65;
+  }
+}

@@ -6,10 +6,9 @@ import './logo.scss';
 const Logo = () => {
 
   return (
-    <div className = "header_logo">
-      <img src={icon}  alt="error icon"/>
+    <div className = "header__logo">
+      <img src={icon}  alt="icon"/>
     </div>
-    
   )
 };
 
