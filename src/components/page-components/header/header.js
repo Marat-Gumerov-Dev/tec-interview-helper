@@ -8,7 +8,7 @@ import Button from '../button';
 
 const Header = () => {
   return (
-    <header className="header">
+    <nav className="header">
       <div className="header__logo-wrapper" >
         < Logo />
       </div>
@@ -21,8 +21,7 @@ const Header = () => {
           <Button />
         </div>
       </div>
-      
-    </header>
+    </nav>
   )
 };
 
