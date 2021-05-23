@@ -1,0 +1,39 @@
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #040608;
+  background-color: #faf9f9;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+}
+
+.btn:focus-visible {
+  box-shadow: 0 0 0 2px rgb(204, 203, 203);
+}
+
+.btn:hover {
+  background-color: #b6b6b6c9;
+  transition-delay: 0.3s;
+  transition-duration: 0.2s;
+}
+
+.btn:active {
+  transform: scale(0.96);
+}
+
+.btn:disabled {
+  pointer-events: none;
+  opacity: 0.65;
+}

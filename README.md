@@ -1,1 +1,1 @@
-# tec-interview-helper
+TEH

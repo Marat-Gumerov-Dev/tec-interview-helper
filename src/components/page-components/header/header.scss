@@ -1,0 +1,25 @@
+$header-bg-color: #2a9fd6;
+
+.header {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $header-bg-color;
+  border: 1px solid #282828;
+
+  &__logo-wrapper {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__right-wrapper {
+    margin-right: 10px;
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

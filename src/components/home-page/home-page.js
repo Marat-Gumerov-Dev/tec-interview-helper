@@ -1,29 +1,21 @@
 import React from "react";
 
-import HeaderNav from "../header/header-nav";
-import Logo from '../header/logo';
-import MenuToggle from '../header/menu-toggle';
-import ThemeSwitcher from '../header/theme-switcher';
-import RunTest from '../run-test';
+import Header from './../page-components/header'
+import PopUpRunTest from '../pop-up-run-test';
 
+import './home-page.scss';
 
 
 const HomePage = () => {
 
   return (
-    <div className="home-page">
-      <header>
-        < HeaderNav />
-        <div>
-          < Logo />
-          < MenuToggle />
-        </div>
-        < ThemeSwitcher />
-      </header>
-      <main>
-        < RunTest/>
-      </main>
+    <div className="homePage">
+      <React.Fragment>
+        <Header />
+        < PopUpRunTest />
+      </React.Fragment>
     </div>
+      
   )
 
 }
