@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './switch-theme.scss'
 
 const SwitchTheme = () => {

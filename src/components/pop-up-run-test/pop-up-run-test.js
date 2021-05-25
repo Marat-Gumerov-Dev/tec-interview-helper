@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './pop-up-run-test.scss'
 
 const PopUpRunTest = () => {
