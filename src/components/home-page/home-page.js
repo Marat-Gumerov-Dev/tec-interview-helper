@@ -1,5 +1,5 @@
 import React from "react";
-import Header from './../page-components/header'
+import Header from '../header';
 import PopUpRunTest from '../pop-up-run-test';
 import './home-page.scss';
 
