@@ -2,7 +2,6 @@ import React from 'react';
 import './header.scss';
 import Logo from '../logo';
 import Title from '../title';
-import SwitchTheme from '../switch-theme';
 import Button from '../button';
 
 const Header = () => {
@@ -14,10 +13,10 @@ const Header = () => {
       <Title />
       <div className="header__right-wrapper">
         <div>
-          <SwitchTheme />
+          <Button onClick={() => {console.log("thema btn click!!!");}} className="btn-black">dark</Button>
         </div>
         <div>
-          <Button />
+          <Button onClick={() => {console.log("header button click!");}}> Joun in </Button>
         </div>
       </div>
     </nav>

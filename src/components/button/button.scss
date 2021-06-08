@@ -1,3 +1,8 @@
+$btn-black-color:#faf9f9;
+$btn-black-bg-color: #040608c5;
+$btn-black-color-hover:#505050df;
+
+
 .btn {
   display: inline-block;
   box-sizing: border-box;
@@ -36,4 +41,45 @@
 .btn:disabled {
   pointer-events: none;
   opacity: 0.65;
+}
+
+.btn-black {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 10px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  color: $btn-black-color;
+  background-color: $btn-black-bg-color;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  touch-action: manipulation;
+
+
+  &:focus-visible {
+    box-shadow: 0 0 0 2px rgb(204, 203, 203);
+  }
+
+  &:hover {
+    background-color: $btn-black-color-hover;
+    transition-delay: 0.3s;
+    transition-duration: 0.2s;
+  }
+
+  &:active {
+    transform: scale(0.96);
+  }
+
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.65;
+  }
 }
