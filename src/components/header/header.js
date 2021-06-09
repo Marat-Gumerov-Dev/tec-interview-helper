@@ -7,9 +7,7 @@ import Button from '../button';
 const Header = () => {
   return (
     <nav className="header">
-      <div className="header__logo-wrapper" >
-        < Logo />
-      </div>
+      <div className="header__logo-wrapper"><Logo /></div>
       <Title />
       <div className="header__right-wrapper">
         <div>
