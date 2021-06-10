@@ -27,7 +27,7 @@ const Button = ({
     < Tag
       {...attrs}
       className={classes}
-      disable={disabled}
+      disabled={disabled}
       onClick={onClickAction}
       >{children}</Tag>
   );

@@ -11,10 +11,10 @@ const PopUpRunTest = () => {
             <h5 className="modal-title">Modal title</h5>
             <Button onClick={() => {console.log("btn btn-close крест!!!");}} className="btn-close" data-bs-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></Button>
           </div>
-          <div class="modal-body">
+          <div className = "modal-body">
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
-          <div class="modal-footer">
+          <div className="modal-footer">
             <Button onClick={() => {console.log("btn Save changes!!!");}} className="btn-blue">Save changes</Button>
             <Button onClick={() => {console.log("btn Close!!!");}} className="btn-gray" data-bs-dismiss="modal">Close</Button>
           </div>

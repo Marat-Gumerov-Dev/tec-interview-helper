@@ -1,13 +1,13 @@
 import React from 'react';
 import './header.scss';
-import Logo from '../logo';
+import Icon from '../icon';
 import Title from '../title';
 import Button from '../button';
 
 const Header = () => {
   return (
     <nav className="header">
-      <div className="header__logo-wrapper"><Logo /></div>
+      <div className="header__logo-wrapper"><Icon /></div>
       <Title />
       <div className="header__right-wrapper">
         <div>
