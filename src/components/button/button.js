@@ -24,7 +24,7 @@ const Button = ({
   const Tag = attrs.href ? 'a' : 'button';
   
   return (
-    < Tag
+    <Tag
       {...attrs}
       className={classes}
       disabled={disabled}
