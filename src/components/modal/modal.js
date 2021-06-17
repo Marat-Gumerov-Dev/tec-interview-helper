@@ -48,7 +48,6 @@ class Modal extends Component {
                         </div>
                       </Portal>
     }
-
     return (
       <>
       { this.state.isOpen &&
@@ -60,61 +59,4 @@ class Modal extends Component {
   }
 }
 
-
-  
-// Modal.propTypes = {
-//   title: PropTypes.string,
-//   isOpen: PropTypes.bool,
-//   onCancel: PropTypes.func,
-//   onSubmit: PropTypes.func,
-//   children: PropTypes.node,
-// };
-
-// Modal.defaultProps = {
-//   title: '',
-//   isOpen: false,
-//   onCancel: () => {},
-//   onSubmit: () => {},
-//   children: null,
-// };
-
 export default Modal;
-
-  // render() {
-  //     let modalWindow = null;
-  //     if (this.state.modalButton) {
-  //         modalWindow = <Portal>
-  //                         <div className="modalOverlay">
-  //                           <div className="modalWindow">
-  //                             {this.state.children}
-  //                           </div>
-  //                         </div>
-  //                       </ Portal>
-  //     } else {
-  //          modalWindow = <Portal>
-  //                         <div className="modalOverlay">
-  //                           <div className="modalWindow">
-  //                             <div className="modalHeader">
-  //                               <div className="modalTitle">{this.state.title}</div>
-  //                             </div>
-  //                             <div className="modalBody">
-  //                               {this.state.children}
-  //                             </div>
-  //                             <div className="modalFooter">
-  //                               <Button onClick={onCancel} invert className="btn-gray">Cancel</Button>
-  //                               <Button onClick={onSubmit} className="btn-blue">Submit</Button>
-  //                             </div>
-  //                           </div>
-  //                         </div>
-  //                       </Portal>
-  //    };
-  // };
-//   return (
-//     <>
-//        {
-//          this.state.isOpen &&
-//                     {modalWindow}
-//        }
-//     </>
-//     )
-// }
